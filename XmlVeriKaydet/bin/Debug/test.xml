@@ -2,34 +2,26 @@
 <SGKIstekListe>
   <SGKIstek>
     <SGKKOD>000001</SGKKOD>
-    <TCKN>111111111111</TCKN>
+    <TCKN>1111111111</TCKN>
     <Soyad>KONGÜL</Soyad>
     <Ad>DİLEK</Ad>
     <BabaAdi>NAZİF</BabaAdi>
-    <Tutar>97944.24</Tutar>
+    <Tutar>97944,24</Tutar>
   </SGKIstek>
   <SGKIstek>
     <SGKKOD>000002</SGKKOD>
-    <TCKN>111111111112</TCKN>
+    <TCKN>1111111112</TCKN>
     <Soyad>KÖRKELE</Soyad>
     <Ad>RECEP</Ad>
     <BabaAdi>MEHMET</BabaAdi>
-    <Tutar>292.58</Tutar>
-  </SGKIstek>
-  <SGKIstek>
-    <SGKKOD>000003</SGKKOD>
-    <TCKN>111111111113</TCKN>
-    <Soyad>ÖZTÜRK ORAM</Soyad>
-    <Ad>SILA</Ad>
-    <BabaAdi>HASAN HİLMİ</BabaAdi>
-    <Tutar>132.93</Tutar>
+    <Tutar>292,58</Tutar>
   </SGKIstek>
   <SGKIstek>
     <SGKKOD>000004</SGKKOD>
-    <TCKN>111111111114</TCKN>
+    <TCKN>1111111111</TCKN>
     <Soyad>YETİŞMİŞ</Soyad>
     <Ad>ŞEHRİBAN</Ad>
-    <BabaAdi>ARİF</BabaAdi>
+    <BabaAdi>ARİFF</BabaAdi>
     <Tutar>3118.85</Tutar>
   </SGKIstek>
   <SGKIstek>
@@ -105,19 +97,35 @@
     <Tutar>257.05</Tutar>
   </SGKIstek>
   <SGKIstek>
-    <SGKKOD>111222</SGKKOD>
-    <TCKN>12345698778</TCKN>
-    <Soyad>KOÇ</Soyad>
-    <Ad>EMİNE</Ad>
-    <BabaAdi>FFFFF</BabaAdi>
-    <Tutar>900,56</Tutar>
+    <SGKKOD>000003</SGKKOD>
+    <TCKN>11111111113</TCKN>
+    <Soyad>ÖZTÜRK ORAM</Soyad>
+    <Ad>SILA</Ad>
+    <BabaAdi>HASAN HİLMİ</BabaAdi>
+    <Tutar>132</Tutar>
   </SGKIstek>
   <SGKIstek>
-    <SGKKOD>012236</SGKKOD>
-    <TCKN>11223336512</TCKN>
-    <Soyad>bal</Soyad>
-    <Ad>irem</Ad>
-    <BabaAdi>sfdxgfdz</BabaAdi>
-    <Tutar>221,56</Tutar>
+    <SGKKOD>000016</SGKKOD>
+    <TCKN>14785236987</TCKN>
+    <Soyad>SOYMAZ</Soyad>
+    <Ad>NURGÜL</Ad>
+    <BabaAdi>MMMM</BabaAdi>
+    <Tutar>800</Tutar>
+  </SGKIstek>
+  <SGKIstek>
+    <SGKKOD>000018</SGKKOD>
+    <TCKN>14785236987</TCKN>
+    <Soyad>KOÇ</Soyad>
+    <Ad>EMİNE</Ad>
+    <BabaAdi>MMMM</BabaAdi>
+    <Tutar>500</Tutar>
+  </SGKIstek>
+  <SGKIstek>
+    <SGKKOD>000020</SGKKOD>
+    <TCKN>99663322556</TCKN>
+    <Soyad>İREM</Soyad>
+    <Ad>BAL</Ad>
+    <BabaAdi>MMM</BabaAdi>
+    <Tutar>200</Tutar>
   </SGKIstek>
 </SGKIstekListe>

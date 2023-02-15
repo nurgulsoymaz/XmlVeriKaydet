@@ -47,6 +47,10 @@
             this.btnSil = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtAra = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,12 +58,14 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(31, 63);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(724, 184);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseDoubleClick);
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label1
             // 
@@ -123,6 +129,7 @@
             // 
             // txtSgk
             // 
+            this.txtSgk.BackColor = System.Drawing.SystemColors.ControlDark;
             this.txtSgk.Location = new System.Drawing.Point(196, 269);
             this.txtSgk.Name = "txtSgk";
             this.txtSgk.Size = new System.Drawing.Size(100, 20);
@@ -130,6 +137,7 @@
             // 
             // txtTckn
             // 
+            this.txtTckn.BackColor = System.Drawing.SystemColors.ControlDark;
             this.txtTckn.Location = new System.Drawing.Point(196, 300);
             this.txtTckn.Name = "txtTckn";
             this.txtTckn.Size = new System.Drawing.Size(100, 20);
@@ -137,6 +145,7 @@
             // 
             // txtSoyad
             // 
+            this.txtSoyad.BackColor = System.Drawing.SystemColors.ControlDark;
             this.txtSoyad.Location = new System.Drawing.Point(196, 334);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(100, 20);
@@ -144,6 +153,7 @@
             // 
             // txtAd
             // 
+            this.txtAd.BackColor = System.Drawing.SystemColors.ControlDark;
             this.txtAd.Location = new System.Drawing.Point(196, 363);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(100, 20);
@@ -151,6 +161,7 @@
             // 
             // txtBabaadi
             // 
+            this.txtBabaadi.BackColor = System.Drawing.SystemColors.ControlDark;
             this.txtBabaadi.Location = new System.Drawing.Point(196, 393);
             this.txtBabaadi.Name = "txtBabaadi";
             this.txtBabaadi.Size = new System.Drawing.Size(100, 20);
@@ -158,6 +169,7 @@
             // 
             // txtTutar
             // 
+            this.txtTutar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.txtTutar.Location = new System.Drawing.Point(196, 425);
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Size = new System.Drawing.Size(100, 20);
@@ -177,7 +189,7 @@
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnGuncelle.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelle.Location = new System.Drawing.Point(405, 332);
             this.btnGuncelle.Name = "btnGuncelle";
@@ -189,7 +201,7 @@
             // 
             // btnSil
             // 
-            this.btnSil.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnSil.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Location = new System.Drawing.Point(405, 393);
             this.btnSil.Name = "btnSil";
@@ -213,18 +225,66 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(878, 16);
+            this.pictureBox1.Location = new System.Drawing.Point(900, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(116, 103);
+            this.pictureBox1.Size = new System.Drawing.Size(115, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.Form1_Load);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(623, 273);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(153, 16);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "PERSONEL ARAMA :";
+            // 
+            // txtAra
+            // 
+            this.txtAra.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.txtAra.Location = new System.Drawing.Point(794, 269);
+            this.txtAra.Name = "txtAra";
+            this.txtAra.Size = new System.Drawing.Size(184, 20);
+            this.txtAra.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(872, 300);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(106, 33);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "ARA";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(788, 371);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(215, 60);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "DATABASE VERİLERİNİ GÖSTER";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1006, 450);
+            this.BackColor = System.Drawing.Color.RosyBrown;
+            this.ClientSize = new System.Drawing.Size(1015, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtAra);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnSil);
@@ -273,6 +333,10 @@
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtAra;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
