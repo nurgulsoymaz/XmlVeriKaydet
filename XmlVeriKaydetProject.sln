@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlVeriKaydet", "XmlVeriKaydet\XmlVeriKaydet.csproj", "{A59E1E61-EEA4-48FD-9280-F9A1A18A9594}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlVeriKaydetProject", "XmlVeriKaydet\XmlVeriKaydetProject.csproj", "{A59E1E61-EEA4-48FD-9280-F9A1A18A9594}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,7 +13,7 @@ using System.Xml.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
-namespace XmlVeriKaydet
+namespace XmlVeriKaydetProject
 {
     public partial class Form1 : Form
     {

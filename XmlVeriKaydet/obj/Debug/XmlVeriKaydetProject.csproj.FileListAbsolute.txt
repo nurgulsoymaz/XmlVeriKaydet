@@ -1,0 +1,11 @@
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\bin\Debug\XmlVeriKaydet.exe.config
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\bin\Debug\XmlVeriKaydet.exe
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\bin\Debug\XmlVeriKaydet.pdb
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydetProject.csproj.AssemblyReference.cache
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydetProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydetProject.Form1.resources
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydet.Properties.Resources.resources
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydetProject.csproj.GenerateResource.cache
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydetProject.csproj.CoreCompileInputs.cache
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydet.exe
+C:\Users\NURGÜL\source\repos\XmlVeriKaydet\XmlVeriKaydet\obj\Debug\XmlVeriKaydet.pdb

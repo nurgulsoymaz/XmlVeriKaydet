@@ -1,4 +1,4 @@
-﻿namespace XmlVeriKaydet
+﻿namespace XmlVeriKaydetProject
 {
     partial class Form1
     {
